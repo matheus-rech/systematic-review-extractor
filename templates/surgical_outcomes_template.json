@@ -1,0 +1,142 @@
+{
+  "surgical_procedures": [
+    "(craniotomy)",
+    "(craniectomy)",
+    "(decompressive\\s*craniectomy)",
+    "(hemicraniectomy)",
+    "(evacuation)",
+    "(resection)",
+    "(excision)",
+    "(drainage)",
+    "(shunt\\s*placement)",
+    "(ventriculostomy)",
+    "(laminectomy)",
+    "(fusion)",
+    "(microdiscectomy)"
+  ],
+  
+  "sample_size": [
+    "n\\s*=\\s*(\\d+)",
+    "(\\d+)\\s*patients?\\s*underwent",
+    "(\\d+)\\s*consecutive\\s*patients?",
+    "enrolled\\s*(\\d+)",
+    "included\\s*(\\d+)\\s*patients?"
+  ],
+  
+  "operative_time": [
+    "operative\\s*time\\s*(?:was\\s*)?([\\d.]+)\\s*(?:minutes?|hours?)",
+    "surgery\\s*(?:lasted|took)\\s*([\\d.]+)\\s*(?:minutes?|hours?)",
+    "duration\\s*of\\s*(?:surgery|operation)\\s*(?:was\\s*)?([\\d.]+)",
+    "mean\\s*operative\\s*time\\s*(?:was\\s*)?([\\d.]+)"
+  ],
+  
+  "blood_loss": [
+    "blood\\s*loss\\s*(?:was\\s*)?([\\d.]+)\\s*(?:ml|mL|cc)",
+    "EBL\\s*(?:was\\s*)?([\\d.]+)\\s*(?:ml|mL|cc)",
+    "estimated\\s*blood\\s*loss\\s*(?:was\\s*)?([\\d.]+)",
+    "intraoperative\\s*blood\\s*loss\\s*(?:was\\s*)?([\\d.]+)"
+  ],
+  
+  "hospital_stay": [
+    "hospital\\s*stay\\s*(?:was\\s*)?([\\d.]+)\\s*days?",
+    "length\\s*of\\s*stay\\s*(?:was\\s*)?([\\d.]+)\\s*days?",
+    "LOS\\s*(?:was\\s*)?([\\d.]+)\\s*days?",
+    "discharged\\s*(?:after\\s*)?([\\d.]+)\\s*days?"
+  ],
+  
+  "icu_stay": [
+    "ICU\\s*stay\\s*(?:was\\s*)?([\\d.]+)\\s*days?",
+    "intensive\\s*care\\s*(?:unit\\s*)?stay\\s*(?:was\\s*)?([\\d.]+)",
+    "([\\d.]+)\\s*days?\\s*in\\s*(?:the\\s*)?ICU",
+    "ICU\\s*length\\s*of\\s*stay\\s*(?:was\\s*)?([\\d.]+)"
+  ],
+  
+  "mortality_30day": [
+    "30[- ]?day\\s*mortality\\s*(?:was\\s*)?([\\d.]+)%?",
+    "mortality\\s*at\\s*30\\s*days\\s*(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:died|mortality)\\s*(?:with)?in\\s*30\\s*days"
+  ],
+  
+  "mortality_90day": [
+    "90[- ]?day\\s*mortality\\s*(?:was\\s*)?([\\d.]+)%?",
+    "mortality\\s*at\\s*90\\s*days\\s*(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:died|mortality)\\s*(?:with)?in\\s*90\\s*days",
+    "3[- ]?month\\s*mortality\\s*(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "mortality_inhospital": [
+    "in[- ]?hospital\\s*mortality\\s*(?:was\\s*)?([\\d.]+)%?",
+    "hospital\\s*mortality\\s*(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*died\\s*(?:in|during)\\s*(?:the\\s*)?hospital",
+    "perioperative\\s*mortality\\s*(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "complications_overall": [
+    "complications?\\s*(?:occurred\\s*in\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:had|developed|experienced)\\s*complications?",
+    "complication\\s*rate\\s*(?:was\\s*)?([\\d.]+)%?",
+    "overall\\s*complications?\\s*(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "infection_rate": [
+    "infection\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:developed|had)\\s*infection",
+    "surgical\\s*site\\s*infection\\s*(?:in\\s*)?([\\d.]+)%?",
+    "SSI\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "hemorrhage": [
+    "(?:post-?operative\\s*)?(?:hemorrhage|bleeding)\\s*(?:in\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:had|developed)\\s*(?:hemorrhage|bleeding)",
+    "re[- ]?bleeding\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "reoperation": [
+    "reoperation\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*required\\s*reoperation",
+    "revision\\s*surgery\\s*(?:in\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*underwent\\s*(?:revision|repeat)\\s*surgery"
+  ],
+  
+  "functional_outcome_gos": [
+    "GOS\\s*(?:score\\s*)?(?:of\\s*)?([1-5])",
+    "Glasgow\\s*Outcome\\s*Scale\\s*(?:score\\s*)?(?:of\\s*)?([1-5])",
+    "good\\s*(?:functional\\s*)?outcome\\s*(?:GOS\\s*[4-5])\\s*(?:in\\s*)?([\\d.]+)%?",
+    "favorable\\s*outcome\\s*(?:in\\s*)?([\\d.]+)%?"
+  ],
+  
+  "functional_outcome_mrs": [
+    "mRS\\s*(?:score\\s*)?(?:of\\s*)?([0-6])",
+    "modified\\s*Rankin\\s*Scale\\s*(?:score\\s*)?(?:of\\s*)?([0-6])",
+    "mRS\\s*[0-2]\\s*(?:in\\s*)?([\\d.]+)%?",
+    "functional\\s*independence\\s*(?:in\\s*)?([\\d.]+)%?"
+  ],
+  
+  "gcs_scores": [
+    "GCS\\s*(?:score\\s*)?(?:of\\s*)?([3-9]|1[0-5])",
+    "Glasgow\\s*Coma\\s*Scale\\s*(?:score\\s*)?(?:of\\s*)?([3-9]|1[0-5])",
+    "admission\\s*GCS\\s*(?:was\\s*)?([3-9]|1[0-5])",
+    "pre[- ]?operative\\s*GCS\\s*(?:was\\s*)?([3-9]|1[0-5])"
+  ],
+  
+  "icp_values": [
+    "ICP\\s*(?:was\\s*)?([\\d.]+)\\s*(?:mm\\s*?Hg|mmHg)",
+    "intracranial\\s*pressure\\s*(?:was\\s*)?([\\d.]+)",
+    "ICP\\s*>\\s*(\\d+)\\s*(?:mm\\s*?Hg|mmHg)",
+    "elevated\\s*ICP\\s*(?:>\\s*)?(\\d+)"
+  ],
+  
+  "time_to_surgery": [
+    "time\\s*to\\s*surgery\\s*(?:was\\s*)?([\\d.]+)\\s*(?:hours?|days?)",
+    "operated\\s*(?:within\\s*)?([\\d.]+)\\s*(?:hours?|days?)",
+    "surgery\\s*(?:performed\\s*)?(?:within\\s*)?([\\d.]+)\\s*(?:hours?|days?)",
+    "([\\d.]+)\\s*(?:hours?|days?)\\s*(?:from|after)\\s*(?:admission|injury)"
+  ],
+  
+  "volume_measurements": [
+    "volume\\s*(?:was\\s*)?([\\d.]+)\\s*(?:ml|mL|cc|cm³)",
+    "hematoma\\s*volume\\s*(?:was\\s*)?([\\d.]+)",
+    "lesion\\s*volume\\s*(?:was\\s*)?([\\d.]+)",
+    "([\\d.]+)\\s*(?:ml|mL|cc|cm³)\\s*(?:hematoma|lesion|hemorrhage)"
+  ]
+}

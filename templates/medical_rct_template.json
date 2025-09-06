@@ -1,0 +1,132 @@
+{
+  "study_design": [
+    "(randomized\\s*controlled\\s*trial)",
+    "(RCT)",
+    "(double[- ]blind)",
+    "(single[- ]blind)",
+    "(open[- ]label)",
+    "(placebo[- ]controlled)",
+    "(parallel[- ]group)",
+    "(crossover)"
+  ],
+  
+  "sample_size": [
+    "n\\s*=\\s*(\\d+)",
+    "(\\d+)\\s*patients?\\s*(?:were\\s*)?(?:enrolled|included|randomized)",
+    "enrolled\\s*(\\d+)\\s*(?:patients?|participants?|subjects?)",
+    "sample\\s*size\\s*(?:of\\s*)?\\s*(\\d+)",
+    "total\\s*(?:of\\s*)?\\s*(\\d+)"
+  ],
+  
+  "intervention_group": [
+    "intervention\\s*(?:group\\s*)?(?:\\()?n\\s*=\\s*(\\d+)",
+    "treatment\\s*(?:group\\s*)?(?:\\()?n\\s*=\\s*(\\d+)",
+    "experimental\\s*(?:group\\s*)?(?:\\()?n\\s*=\\s*(\\d+)",
+    "(\\d+)\\s*(?:patients?\\s*)?received\\s*(?:the\\s*)?(?:intervention|treatment)"
+  ],
+  
+  "control_group": [
+    "control\\s*(?:group\\s*)?(?:\\()?n\\s*=\\s*(\\d+)",
+    "placebo\\s*(?:group\\s*)?(?:\\()?n\\s*=\\s*(\\d+)",
+    "standard\\s*care\\s*(?:group\\s*)?(?:\\()?n\\s*=\\s*(\\d+)",
+    "(\\d+)\\s*(?:patients?\\s*)?received\\s*(?:placebo|standard\\s*care|control)"
+  ],
+  
+  "age": [
+    "mean\\s*age\\s*(?:was\\s*)?([\\d.]+)\\s*(?:±|\\+/-)?\\s*([\\d.]+)?",
+    "aged\\s*([\\d.]+)\\s*(?:±|\\+/-)?\\s*([\\d.]+)?\\s*years?",
+    "([\\d.]+)\\s*(?:±|\\+/-)?\\s*([\\d.]+)?\\s*years?\\s*(?:old|of\\s*age)",
+    "age\\s*range[:\\s]*(\\d+)\\s*[-–]\\s*(\\d+)"
+  ],
+  
+  "gender_distribution": [
+    "(\\d+)\\s*(?:\\()?([\\d.]+)%?(?:\\))?\\s*(?:were\\s*)?males?",
+    "(\\d+)\\s*(?:\\()?([\\d.]+)%?(?:\\))?\\s*(?:were\\s*)?females?",
+    "([\\d.]+)%?\\s*males?",
+    "([\\d.]+)%?\\s*females?",
+    "male[:\\s]*female\\s*(?:ratio\\s*)?(?:was\\s*)?([\\d.]+)[:\\s]*([\\d.]+)"
+  ],
+  
+  "primary_outcome": [
+    "primary\\s*(?:outcome|endpoint)\\s*(?:was\\s*)?([^.\\n]+)",
+    "main\\s*(?:outcome|endpoint)\\s*(?:was\\s*)?([^.\\n]+)",
+    "primary\\s*(?:outcome|endpoint)[:\\s]*([^.\\n]+)"
+  ],
+  
+  "mortality": [
+    "mortality\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:of\\s*patients?\\s*)?died",
+    "death\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?",
+    "(\\d+)\\s*deaths?\\s*(?:\\()?([\\d.]+)%?(?:\\))?",
+    "survival\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "efficacy_measures": [
+    "response\\s*rate\\s*(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:of\\s*patients?\\s*)?(?:responded|improved)",
+    "complete\\s*response\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?",
+    "partial\\s*response\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?",
+    "clinical\\s*improvement\\s*(?:in\\s*)?([\\d.]+)%?"
+  ],
+  
+  "effect_sizes": [
+    "Cohen'?s?\\s*d\\s*[=:]\\s*([\\d.]+)",
+    "effect\\s*size\\s*(?:was\\s*)?([\\d.]+)",
+    "SMD\\s*[=:]\\s*(-?[\\d.]+)",
+    "mean\\s*difference\\s*(?:was\\s*)?(-?[\\d.]+)",
+    "difference\\s*(?:of\\s*)?(-?[\\d.]+)\\s*(?:points|units)?"
+  ],
+  
+  "statistical_significance": [
+    "[Pp]\\s*[<=>]\\s*([\\d.]+)",
+    "[Pp]-?value\\s*(?:was\\s*)?[<=>]\\s*([\\d.]+)",
+    "(?:statistically\\s*)?significant\\s*\\([Pp]\\s*[<=>]\\s*([\\d.]+)\\)",
+    "not\\s*(?:statistically\\s*)?significant\\s*\\([Pp]\\s*[<=>]\\s*([\\d.]+)\\)"
+  ],
+  
+  "confidence_intervals": [
+    "95%?\\s*CI[:\\s]*\\[?(-?[\\d.]+)\\s*[-–,]\\s*(-?[\\d.]+)\\]?",
+    "\\((-?[\\d.]+)\\s*to\\s*(-?[\\d.]+)\\)",
+    "confidence\\s*interval[:\\s]*(-?[\\d.]+)\\s*to\\s*(-?[\\d.]+)"
+  ],
+  
+  "risk_ratios": [
+    "(?:RR|risk\\s*ratio)\\s*[=:]\\s*([\\d.]+)",
+    "(?:OR|odds\\s*ratio)\\s*[=:]\\s*([\\d.]+)",
+    "(?:HR|hazard\\s*ratio)\\s*[=:]\\s*([\\d.]+)",
+    "relative\\s*risk\\s*(?:was\\s*)?([\\d.]+)"
+  ],
+  
+  "nnt": [
+    "NNT\\s*[=:]\\s*(\\d+)",
+    "number\\s*needed\\s*to\\s*treat\\s*(?:was\\s*)?\\s*(\\d+)",
+    "NNH\\s*[=:]\\s*(\\d+)",
+    "number\\s*needed\\s*to\\s*harm\\s*(?:was\\s*)?\\s*(\\d+)"
+  ],
+  
+  "adverse_events": [
+    "adverse\\s*events?\\s*(?:occurred\\s*in\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:experienced|had|developed)\\s*adverse\\s*events?",
+    "serious\\s*adverse\\s*events?\\s*(?:in\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*discontinued\\s*(?:due\\s*to|because\\s*of)\\s*adverse"
+  ],
+  
+  "follow_up_period": [
+    "follow[- ]?up\\s*(?:period\\s*)?(?:was\\s*)?\\s*(\\d+)\\s*(months?|years?|weeks?|days?)",
+    "followed\\s*(?:for\\s*)?\\s*(\\d+)\\s*(months?|years?|weeks?|days?)",
+    "(\\d+)[- ]?(months?|years?|weeks?|days?)\\s*follow[- ]?up"
+  ],
+  
+  "dropout_rate": [
+    "dropout\\s*rate\\s*(?:was\\s*)?([\\d.]+)%?",
+    "([\\d.]+)%?\\s*(?:dropped\\s*out|withdrew|discontinued)",
+    "lost\\s*to\\s*follow[- ]?up[:\\s]*([\\d.]+)%?",
+    "attrition\\s*(?:rate\\s*)?(?:was\\s*)?([\\d.]+)%?"
+  ],
+  
+  "baseline_characteristics": [
+    "baseline\\s*([A-Za-z\\s]+)\\s*(?:was|were)\\s*([\\d.]+)",
+    "at\\s*baseline[,\\s]*([A-Za-z\\s]+)\\s*(?:was|were)\\s*([\\d.]+)",
+    "pre[- ]?treatment\\s*([A-Za-z\\s]+)\\s*(?:was|were)\\s*([\\d.]+)"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sample_size": {
+    "patterns": [
+      "\\bn\\s*=\\s*(\\d+)",
+      "(\\d+)\\s*participants",
+      "(\\d+)\\s*subjects",
+      "total\\s+of\\s+(\\d+)"
+    ],
+    "hint": "total number of participants or subjects",
+    "required": true,
+    "type": "integer"
+  },
+  "mean_age": {
+    "patterns": [
+      "mean\\s*age.*?(\\d+\\.?\\d*)",
+      "(\\d+\\.?\\d*)\\s*±\\s*\\d+\\.?\\d*",
+      "average\\s*age.*?(\\d+\\.?\\d*)"
+    ],
+    "hint": "mean or average age",
+    "required": false,
+    "type": "float"
+  },
+  "p_value": {
+    "patterns": [
+      "p\\s*[<=]\\s*(0\\.\\d+)",
+      "P\\s*value.*?(0\\.\\d+)",
+      "significance.*?(0\\.\\d+)"
+    ],
+    "hint": "p-value for primary outcome",
+    "required": true,
+    "type": "float"
+  },
+  "effect_size": {
+    "patterns": [
+      "d\\s*=\\s*(\\d+\\.?\\d*)",
+      "Cohen.*?d.*?(\\d+\\.?\\d*)",
+      "SMD\\s*=\\s*(\\d+\\.?\\d*)"
+    ],
+    "hint": "Cohen's d, SMD or other effect size",
+    "required": false,
+    "type": "float"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "project_directory": "final_test",
+  "pdf_processed": "final_test/input/dewan2018.pdf",
+  "extraction_results": {
+    "total_extractions": 59,
+    "unique_fields": 3,
+    "average_confidence": 0.8949152542372881
+  },
+  "output_files": {
+    "html_report": "final_test/output/reports/extraction_report.html",
+    "text_summary": "final_test/output/reports/summary.txt",
+    "json_results": "final_test/output/json/raw_extractions.json",
+    "json_analysis": "final_test/output/json/analysis.json",
+    "screenshots_dir": "final_test/output/screenshots"
+  },
+  "timestamp": "2025-09-05T22:21:22.645403"
+}

@@ -1,0 +1,61 @@
+{
+  "pdf": "dewan2018.pdf",
+  "total_extractions": 75,
+  "clinical_data": {
+    "total_patients": [
+      {
+        "value": "369",
+        "page": 3,
+        "context": "n = 369",
+        "confidence": 0.8999999999999999
+      }
+    ],
+    "surgical_procedure": [
+      {
+        "value": "craniotomy",
+        "page": 1,
+        "context": "craniotomy",
+        "confidence": 0.7999999999999999
+      },
+      {
+        "value": "evacuation",
+        "page": 1,
+        "context": "evacuation",
+        "confidence": 0.7999999999999999
+      }
+    ],
+    "statistical_significance": [
+      {
+        "value": ".001",
+        "page": 3,
+        "context": "P < .001",
+        "confidence": 0.8999999999999999
+      },
+      {
+        "value": ".002",
+        "page": 3,
+        "context": "P = .002",
+        "confidence": 0.8999999999999999
+      },
+      {
+        "value": ".008",
+        "page": 3,
+        "context": "P = .008",
+        "confidence": 0.8999999999999999
+      },
+      {
+        "value": ".005",
+        "page": 3,
+        "context": "P\n< .005",
+        "confidence": 0.8999999999999999
+      },
+      {
+        "value": ".006",
+        "page": 5,
+        "context": "P = .006",
+        "confidence": 0.8999999999999999
+      }
+    ]
+  },
+  "pages_analyzed": 10
+}

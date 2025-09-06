@@ -1,0 +1,21 @@
+======================================================================
+SYSTEMATIC REVIEW DATA EXTRACTION SUMMARY
+======================================================================
+
+PDF: dewan2018.pdf
+Generated: 2025-09-05 22:21:22
+
+EXTRACTION METRICS:
+----------------------------------------
+• Total Extractions: 59
+• Pages Analyzed: 10
+• Unique Fields: 3
+• Average Confidence: 89%
+
+KEY FINDINGS:
+----------------------------------------
+• total_sample_size: 369 (Page 3)
+• p_values: .001 (Page 3)
+• study_design: Systematic review (Page 10)
+
+======================================================================

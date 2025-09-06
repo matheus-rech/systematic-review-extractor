@@ -1,0 +1,16 @@
+# Core PDF processing
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Web interface (optional)
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# For advanced features (optional)
+# camelot-py[cv]>=0.11.0  # Table extraction
+# pytesseract>=0.3.10     # OCR for scanned PDFs
+# pdf2image>=1.16.0       # PDF to image conversion
