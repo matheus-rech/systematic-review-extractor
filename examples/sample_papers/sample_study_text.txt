@@ -1,0 +1,15 @@
+Sample Research Paper Text
+==========================
+
+Title: Effectiveness of Exercise Interventions on Depression: A Randomized Controlled Trial
+
+Authors: Dr. Sarah Johnson, Dr. Michael Chen, Dr. Emma Wilson
+
+Abstract:
+Background: Depression affects millions of people worldwide. This study investigated the effectiveness of structured exercise interventions.
+
+Methods: This was a randomized controlled trial with 240 participants aged 18-65 with major depressive disorder. Participants were randomized to either a 12-week supervised exercise program (n=120) or a control group receiving standard care (n=120).
+
+Results: The exercise group showed significant improvement in Beck Depression Inventory scores compared to control (mean difference: -8.5 points, 95% CI: -12.1 to -4.9, p < 0.001). Effect size was large (Cohen's d = 0.85).
+
+Conclusion: Structured exercise interventions are highly effective for reducing depression symptoms in adults.
